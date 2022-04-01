@@ -1,0 +1,29 @@
+{
+  "name": "sample-pactjs-contract-testing",
+  "version": "1.0.0",
+  "description": "Testes de Contrato com PactJS",
+  "main": "index.js",
+  "scripts": {
+    "test:consumer": "jest --runInBand test/consumer.spec.js"
+  },
+  "jest": {
+    "testTimeout": 20000,
+    "testEnvironment": "node",
+    "transform": {
+      ".(js|jsx|ts|tsx)": "@sucrase/jest-plugin"
+    }
+  },
+  "author": "thiago.andrade",
+  "license": "ISC",
+  "dependencies": {
+    "@pact-foundation/pact": "^9.17.3",
+    "@pact-foundation/pact-node": "^10.17.2",
+    "@sucrase/jest-plugin": "^2.2.0",
+    "@types/jest": "^27.4.1",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "jest": "^27.5.1",
+    "pact": "^4.3.2",
+    "start-server-and-test": "^1.14.0"
+  }
+}
