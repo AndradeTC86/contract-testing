@@ -8,7 +8,7 @@ import { userList } from '../request/user.request';
 const mockProvider = new Pact({
     consumer: 'ebac-demo-store-admin',
     provider: 'ebac-demo-store-server',
-    port: process.env.MOCK_PORT,
+    port: parseInt(process.env.MOCK_PORT),
     log: resolve(process.cwd(), 'logs', 'pact.log'),
     dir: resolve(process.cwd(), 'pacts')
 })

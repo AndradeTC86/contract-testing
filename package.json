@@ -23,7 +23,6 @@
     "axios": "^0.26.1",
     "dotenv": "^16.0.0",
     "jest": "^27.5.1",
-    "pact": "^4.3.2",
     "start-server-and-test": "^1.14.0"
   }
 }
