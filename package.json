@@ -4,7 +4,9 @@
   "description": "Testes de Contrato com PactJS",
   "main": "index.js",
   "scripts": {
-    "test:consumer": "jest --runInBand test/consumer.spec.js"
+    "test:consumer": "jest --runInBand test/consumer.spec.js",
+    "test:provider": "jest --runInBand test/provider.spec.js",
+    "publish:broker": "node broker/publish.broker.js"
   },
   "jest": {
     "testTimeout": 20000,
@@ -16,13 +18,13 @@
   "author": "thiago.andrade",
   "license": "ISC",
   "dependencies": {
-    "@pact-foundation/pact": "^9.17.3",
-    "@pact-foundation/pact-node": "^10.17.2",
+    "@pact-foundation/pact": "^9.17.0",
+    "@pact-foundation/pact-node": "^10.15.0",
     "@sucrase/jest-plugin": "^2.2.0",
-    "@types/jest": "^27.4.1",
-    "axios": "^0.26.1",
-    "dotenv": "^16.0.0",
-    "jest": "^27.5.1",
+    "@types/jest": "^27.0.3",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "jest": "^27.3.1",
     "start-server-and-test": "^1.14.0"
   }
 }
