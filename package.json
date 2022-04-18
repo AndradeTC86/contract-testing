@@ -1,5 +1,5 @@
 {
-  "name": "sample-pactjs-contract-testing",
+  "name": "contract-testing",
   "version": "1.0.0",
   "description": "Testes de Contrato com PactJS",
   "main": "index.js",
