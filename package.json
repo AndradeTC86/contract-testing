@@ -4,7 +4,7 @@
   "description": "Testes de Contrato com PactJS",
   "main": "index.js",
   "scripts": {
-    "test:consumer": "jest --runInBand test/consumer.spec.js",
+    "test:consumer": "jest --runInBand  test/users.consumer.spec.js test/addresses.consumer.spec.js test/customers.consumer.spec.js",
     "test:provider": "jest --runInBand test/provider.spec.js",
     "publish:broker": "node broker/publish.broker.js"
   },

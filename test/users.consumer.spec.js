@@ -23,7 +23,7 @@ describe('Consumer Test', () => {
                     method: 'POST',
                     path: '/graphql',
                     headers: {
-                        Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNjQ4NzI1MjA0LCJleHAiOjE2NDg4OTgwMDR9.5zrmoHZonaqfU801rouO0cFA2kYnfSKsJnAaq190Q6o',
+                        Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNjUwMzE5ODE4LCJleHAiOjE2NTA0OTI2MTh9.rzhvcqRBk3c0C09f3A08I9RRRseV_GGEpT2HRcU76C0',
                         "Content-Type": 'application/json'
                     },
                     body:{
