@@ -108,4 +108,3 @@ reports/
 allure-reports/
 jest-html-reporters-attach/
 logs/
-pacts/
