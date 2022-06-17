@@ -1,4 +1,4 @@
-# api-testing
+# contract-testing
 
 # Automation Test Contract API with PactJS
 
